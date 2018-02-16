@@ -4,8 +4,9 @@ def roll_call_dwarves(array)
   array.each {|dwarf| puts "#{position}. #{dwarf}"; position += 1}
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(array)# code an argument here
   # Your code here
+  array.collect {|thing| thing = "#{thing.capitalize}!"
 end
 
 def long_planeteer_calls# code an argument here
