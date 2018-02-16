@@ -1,7 +1,7 @@
 def roll_call_dwarves(array)
   # Your code here
   position=1
-  array.each {|dwarf| puts "#{position}. #{dwarf}"}
+  array.each {|dwarf| puts "#{position}. #{dwarf}"; position += 1}
 end
 
 def summon_captain_planet# code an argument here
