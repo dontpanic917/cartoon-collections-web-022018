@@ -19,5 +19,5 @@ def find_the_cheese(array)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   permacheese=""
   cheese_types.each {|cheese| array.include?(cheese) ? permacheese=cheese : nil}
-
+  return permacheese
 end
