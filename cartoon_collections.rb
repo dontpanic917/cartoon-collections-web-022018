@@ -18,5 +18,5 @@ def find_the_cheese(array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   permacheese=""
-  cheese_types.each {|cheese| array.include?(cheese) ? return cheese : return nil}
+  return cheese_types.each {|cheese| array.include?(cheese) ? return cheese : return nil}
 end
